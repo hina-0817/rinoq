@@ -164,5 +164,6 @@ body {
 .box{
     background-color: #ffffff;
     color: #58aeff;
+    margin: 10px;
 }
 }
