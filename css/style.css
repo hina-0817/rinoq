@@ -80,6 +80,7 @@ body {
 .box{
     background-color: #ffffff;
     color: #58aeff;
+    height: 70px;
 }
 
 
@@ -164,6 +165,10 @@ body {
 .box{
     background-color: #ffffff;
     color: #58aeff;
-    margin: 10px;
+    margin: 0px;
+}
+.flex-column{
+    display:flex;
+    flex-direction: column;
 }
 }
