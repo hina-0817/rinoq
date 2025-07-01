@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>令和7年度　課題研究　久保田班</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<input type="text" id="myInput">
+  <button id="myButton">ログ出力</button>
+
+  <script>
+    const inputElement = document.getElementById('myInput');
+    const buttonElement = document.getElementById('myButton');
+
+    buttonElement.addEventListener('click', () => {
+      const inputValue = inputElement.value;
+      console.log(inputValue);
+    });
+  </body>
