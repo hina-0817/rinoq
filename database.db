@@ -1,3 +1,4 @@
 git init
 git add database.db
 git commit -m "Add database file"
+git push origin main
